@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {
-    return (
-        <div>
-            <Outlet></Outlet>            
-        </div>
-    );
+  return (
+    <div className="min-h-screen font-sofia">
+      <Outlet></Outlet>
+    </div>
+  );
 };
 
 export default Layout;
